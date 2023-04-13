@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
 body{
     min-height: 100vh;
     display: flex;
@@ -6,4 +7,58 @@ body{
 
 main{
     flex-grow: 1;
+}
+h2{
+    font-family: 'Gugi', cursive;
+}
+.text-blue{
+    text-shadow: 0 0 5px #236dde,
+    0 0 10px #236dde,
+    0 0 15px #236dde,
+    0 0 50px #236dde,
+    0 0 80px #236dde,
+    0 0 100px #236dde;
+}
+.text-red{
+    text-shadow: 0 0 5px #de3232,
+    0 0 10px #de3232,
+    0 0 15px #de3232,
+    0 0 50px #de3232,
+    0 0 80px #de3232,
+    0 0 100px #de3232;
+}
+.text-gray{
+    text-shadow: 0 0 5px #7b818a,
+    0 0 10px #7b818a,
+    0 0 15px #7b818a,
+    0 0 50px #7b818a,
+    0 0 80px #7b818a,
+    0 0 100px #7b818a;
+}
+.btn-blue{
+    border-color: #236dde;
+    color: #236dde;
+}
+.btn-blue:hover{
+    background: #236dde;
+    color: white;
+    
+}
+.btn-red{
+    border-color: #de3232;
+    color: #de3232;
+}
+.btn-red:hover{
+    background: #de3232;
+    color: white;
+    
+}
+.btn-gray{
+    border-color: #7b818a;
+    color: #7b818a;
+}
+.btn-gray:hover{
+    background: #7b818a;
+    color: white;
+    
 }
